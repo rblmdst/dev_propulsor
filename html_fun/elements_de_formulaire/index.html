@@ -1,0 +1,154 @@
+<html>
+  <head>
+    <title>Formulaire...</title>
+  </head>
+  <body>
+    <h1>Formulaire</h1>
+
+    <!-- Form #1 -->
+    <form>
+      <p>
+        <label for="cgu">
+          <input id="cgu" checked type="checkbox" name="" id="" />
+          J'accepte les conditions d'utilisation...
+        </label>
+      </p>
+      <p>
+        <label for="">Prénoms</label>
+        <input
+          maxlength="3"
+          required
+          placeholder="Saisir un prénoms"
+          type="text"
+        />
+      </p>
+      <p>
+        <label for="">Nom</label>
+        <input type="text" />
+      </p>
+      <p>
+        <label for="email">Email</label>
+        <input id="email" type="email" />
+      </p>
+      <p>
+        <label for="">Mot de passe</label>
+        <input type="password" />
+      </p>
+      <textarea
+        placeholder="Message ici..."
+        name=""
+        id=""
+        cols="30"
+        rows="10"
+      ></textarea>
+      <p>
+        <label for="sex-m">
+          <input disabled id="sex-m" type="radio" name="sex" />
+          Homme
+        </label>
+        <label for="sex-f">
+          <input disabled id="sex-f" type="radio" name="sex" />
+          Femme
+        </label>
+        <label for="sex-u">
+          <input disabled checked id="sex-u" type="radio" name="sex" />
+          Ne pas renseigner
+        </label>
+      </p>
+      <div>
+        <p><strong>Date Naissance</strong></p>
+        <p>
+          <!-- Jour -->
+          <select name="" id="">
+            <option selected disabled>Jour</option>
+            <option value="1">01</option>
+            <option value="2">02</option>
+            <option value="3">03</option>
+            <option value="4">04</option>
+            <option value="5">05</option>
+          </select>
+          <!-- Mois -->
+          <select name="" id="">
+            <option selected disabled>Mois</option>
+            <option value="">Janvier</option>
+            <option value="">Février</option>
+            <option value="">Mars</option>
+          </select>
+          <!-- Année -->
+          <select name="" id="">
+            <option selected disabled>Année</option>
+            <option value="">1900</option>
+            <option value="">1901</option>
+            <option value="">1902</option>
+          </select>
+        </p>
+      </div>
+      <div>
+        <button type="button">Test</button>
+        <button type="submit">S'inscrire</button>
+        <button type="reset">Annuler</button>
+      </div>
+
+      <!-- <p>
+        <label for="">Code Postal</label>
+        <input type="number" />
+      </p>
+      <p>
+        <label for="">Upload de fichier</label>
+        <input type="file" />
+      </p>
+      <p>
+        <label for="">Couleur</label>
+        <input type="color" />
+      </p> -->
+    </form>
+
+    <form action="">
+      <p>
+        <label for="">Nom du groupe</label>
+        <input type="text" placeholder="Nom de votre groupe" />
+      </p>
+      <textarea
+        placeholder="Votre groupe en quelques mots..."
+        name=""
+        id=""
+        cols="30"
+        rows="5"
+      ></textarea>
+      <fieldset>
+        <legend>Membres #1</legend>
+        <!-- Person 1 -->
+        <div>
+          <p>
+            <label for="">Nom & Prénoms</label>
+            <input required placeholder="Saisir un prénoms" type="text" />
+          </p>
+          <p>
+            <label for="">Ville</label>
+            <input required placeholder="Saisir la ville" type="text" />
+          </p>
+        </div>
+      </fieldset>
+      <fieldset>
+        <legend>Membres #2</legend>
+        <!-- Person 2 -->
+        <div>
+          <p>
+            <label for="">Nom & Prénoms</label>
+            <input required placeholder="Saisir un prénoms" type="text" />
+          </p>
+          <p>
+            <label for="">Ville</label>
+            <input required placeholder="Saisir la ville" type="text" />
+          </p>
+        </div>
+      </fieldset>
+
+      <div>
+        <button type="submit">S'inscrire</button>
+        <button type="reset">Annuler</button>
+      </div>
+    </form>
+    <!-- Form #2-->
+  </body>
+</html>
